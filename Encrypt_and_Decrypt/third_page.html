@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playfair cipher</title>
+    <link rel="stylesheet" href="third_page.css" />
+    <script src="third_page.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Playfair Ciper</h1>
+        <img src="playfair.jpg" class="playfair_img" />
+        <div class="innercontainer">
+          <textarea name="" id="playfairmessage" placeholder="Enter  your message"></textarea
+          ><br /><br />
+          <div id="buttons-container">
+            <button onclick="playfair(), cipher()" id="encrypt">Encrypt</button>
+            <input id="playfair-key" type="text" placeholder="key in word" />
+            <button onclick="deCodeCipher()" id="decrypt">Decrypt</button>
+            <br /><br />
+            <label>Encrypt Result:</label>
+            <textarea id="printValue"></textarea><br /><br />
+            <label>Decrypt Result:</label>
+            <textarea id="printDeCode"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

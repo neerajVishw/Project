@@ -1,0 +1,93 @@
+.container{
+    width: 400px;
+    height: 260px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-color: red green blue yellow;
+    
+    
+}
+.heading{
+    font-size:10px;
+    /* text-align: center; */
+    margin-left: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+.playfair_img{
+    width: 150px;
+    height:50px;
+    float: right;
+    margin-top:-40px;
+    margin-right: 10px;
+}
+#playfairmessage{
+    width: 200px;
+    height: 60px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    resize: none;
+    margin-left: -40px;
+    background-color: beige;
+   }
+
+#playfair-key{
+    width:80px;
+    height: 15px;
+    margin-left: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#encrypt{
+    font-size: 15px;
+    margin-left: -25px;
+    color: blueviolet;
+    background-color: bisque;
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#decrypt{
+    font-size: 15px;
+    margin-left: -25px;
+    color: blueviolet;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-left:10px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#encrypt:hover{
+    background-color: burlywood;
+}
+#decrypt:hover{
+    background-color: burlywood;
+}
+label{
+    font-size:15px;
+    margin-left: -40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#printValue{
+    width: 200px;
+    height:20px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    resize: none;
+    
+}
+#printDeCode{
+    width: 200px;
+    height:20px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    resize: none;
+}
+
+   

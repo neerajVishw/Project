@@ -1,0 +1,79 @@
+
+.container{
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-color: red green blue yellow;
+    
+    
+}
+.heading{
+    font-size:10px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+.caeimg{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top:-40px;
+    margin-right: 10px;
+}
+#caesar-message{
+    width: 200px;
+    height: 80px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    resize: none;
+    background-color: beige;
+   }
+
+#caesar-key{
+    width:120px;
+    height: 15px;
+    margin-left: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#encrypt{
+    font-size: 15px;
+    margin-left: -25px;
+    color: blueviolet;
+    background-color: bisque;
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#decrypt{
+    font-size: 15px;
+    margin-left: -25px;
+    color: blueviolet;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-left:10px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#encrypt:hover{
+    background-color: burlywood;
+}
+#decrypt:hover{
+    background-color: burlywood;
+}
+label{
+    font-size:15px;
+}
+#caesar-result{
+    margin-top: 15px;
+    width: 200px;
+    height:30px;
+    resize: none;
+    background-color: beige;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

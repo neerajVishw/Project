@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar cipher</title>
+    <link rel="stylesheet" href="css_second.css">
+    <script src="second_page.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="heading">
+        <h1>Caesar Ciper</h1>
+        <img src="caeimg.jpg" class="caeimg">
+        <div class="innercontainer">
+           
+            <textarea name="" id="caesar-message" placeholder="Enter  your message"></textarea><br><br>
+            <div id="buttons-container">
+            <button onclick="caesarEncrypt()" id="encrypt">Encrypt</button>
+            <input  id="caesar-key" type="number"  min="1" max="26" placeholder="Enter key(1-26)">
+            <button onclick="caesarDecrypt()"id="decrypt">Decrypt</button>
+            <br><br>
+            <label for="caesar-result">Result:</label>
+            <textarea  id="caesar-result" readonly></textarea>
+        </div>
+        </div>
+     
+    </div>
+</div>
+</body>
+</html>
